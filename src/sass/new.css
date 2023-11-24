@@ -1,0 +1,47 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  display: flex;
+}
+
+.block {
+  border-radius: 25px;
+  width: 400px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+}
+.block .Heading1 {
+  font-size: 15px;
+  color: #FFC7A0;
+}
+.block .Heading1 h2 {
+  color: #F2F3CC;
+}
+.block .Heading1 p {
+  color: #C3FCF2;
+}
+.block .image img {
+  width: 300px;
+  height: 250px;
+}
+
+.navbar {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  margin: 5px;
+  padding-left: 10px;
+  color: #C3FCF2;
+}
+.navbar input {
+  margin: 10px;
+  padding: 5px;
+}/*# sourceMappingURL=new.css.map */

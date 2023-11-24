@@ -1,0 +1,61 @@
+$name_size: 15px;
+$heading: 20px;
+$primary_color: #F2F3CC;
+$secondary_color: #C3FCF2;
+$heading_Color: #FFC7A0;
+
+@mixin blocks($name_size, $heading_Color){
+    font-size: $name_size;
+    color: $heading_Color;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    height: 80vh; // Set the height of the body to the full viewport height
+    display: flex;
+  }
+.block{
+    border-radius: 25px;
+    width: 400px;
+    height: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    
+        .Heading1{
+            @include blocks($name_size, $heading_Color);
+            h2 {
+                color: $primary_color;
+            }
+            p {
+                color: $secondary_color;
+            }
+        }
+
+        
+
+        .image img{
+            width: 300px;
+            height: 350px;
+        }
+
+}
+
+.navbar {
+    margin : 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        margin: 5px;
+        padding-left: 10px;
+        color: #C3FCF2;
+
+    }
+    input {
+        margin: 10px;
+        padding: 5px;
+    }
+}
