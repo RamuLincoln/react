@@ -1,4 +1,5 @@
 
+
 import './sass/new.css';
 
 function New(props) {
@@ -6,20 +7,22 @@ function New(props) {
   const{data} = props
   console.log(data)
   const{heading, heading1, text, image} = data
-
+  const Newphonedata = () => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+  .then(response => response.json())
+  .then(datas => console.log(datas))
+  .catch(error => console.error(error));}
 
   return (
         <div className="block">
            
            <div className='Heading1'>
-                <h3>{heading}</h3>
-                <h2>{heading1}</h2>
+                <h3>{heading} {heading1}</h3> 
+                
+                <img src={image} ></img>
                 <p>{text}</p>
             </div>
-           <div className='image'>
-                <img src={image} ></img> 
-            </div> 
-
+            <Newphonedata />
         </div>
   );
 }

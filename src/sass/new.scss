@@ -17,7 +17,7 @@ $heading_Color: #FFC7A0;
 .block{
     border-radius: 25px;
     width: 400px;
-    height: 470px;
+    height: 47  0px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -32,13 +32,17 @@ $heading_Color: #FFC7A0;
             p {
                 color: $secondary_color;
             }
+            img{
+                width: 300px;
+                height: 300px;
+            }
         }
 
         
 
         .image img{
             width: 300px;
-            height: 350px;
+            height: 300px;
         }
 
 }

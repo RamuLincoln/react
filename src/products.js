@@ -11,7 +11,7 @@ import iphonegreen1 from './images/iphonegreen1.png';
 export const data = [
     {
         heading : "Samsung",
-        heading1 : "Pro.Beyond",
+        heading1 : "Pro",
         text : "from 80,000",
         image : sam
       },
@@ -23,42 +23,42 @@ export const data = [
       },
       {
         heading : "Iphone",
-        heading1 : "Pro.Beyond",
+        heading1 : "Plus",
         text : "from 1,10,000",
         image : iphoneblue1
       },
       {
         heading : "Hipo",
-        heading1 : "Pro.Beyond",
+        heading1 : "Note",
         text : "from 20,000",
         image : hipo
       },
       {
         heading : "Nothing",
-        heading1 : "Pro.Beyond",
+        heading1 : "Promax",
         text : "from 75,000",
         image : nothing
       },
       {
         heading : "Oneplus",
-        heading1 : "Pro.Beyond",
+        heading1 : "Beyond",
         text : "from 65,000",
         image : oneplus
       },{
         heading : "Iphone",
-        heading1 : "Pro.Beyond",
+        heading1 : "Plus",
         text : "from 1,00,000",
         image : iphonegreen1
       },
       {
         heading : "Oneplus",
-        heading1 : "Pro.Beyond",
+        heading1 : "Gal",
         text : "from 60,000",
         image : plus
       },
       {
         heading : "Samsung",
-        heading1 : "Pro.Beyond",
+        heading1 : "Pro",
         text : "from 60,000",
         image : samsung
       },
