@@ -16,8 +16,8 @@ function Login() {
 
                 </div>    
             )}
-            { !user.name ? <button onClick={() => dispatch(login({name}))}>Login</button> :
-            <button onClick={() => dispatch(logout())}>Logout</button> }
+            { !user.name ? <button onClick={() => dispatch(login({name}))}>click to change name</button> :
+            <button onClick={() => dispatch(logout())}>Change Name</button> }
         </div>
     )
 }

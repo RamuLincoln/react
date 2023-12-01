@@ -28,9 +28,9 @@ function App(){
       </Maincontainer>
       <TopContainer>
           <Provider store = {store}>
-            <ColorSelector />
             <Profile />
             <Login />
+            <ColorSelector />
           </Provider>
       </TopContainer>
       <TopContainer>
