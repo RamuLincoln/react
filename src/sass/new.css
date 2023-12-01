@@ -17,7 +17,11 @@
 }
 .block .Heading1 {
   font-size: 15px;
-  color: #FFC7A0;
+  color: #F1F4CC;
+  background: #CBD5C8;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  margin: 1rem;
 }
 .block .Heading1 h2 {
   color: #F2F3CC;
@@ -43,7 +47,7 @@
 .navbar a {
   margin: 5px;
   padding-left: 10px;
-  color: #C3FCF2;
+  color: #759A9B;
 }
 .navbar input {
   margin: 10px;

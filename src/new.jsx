@@ -17,9 +17,9 @@ function New(props) {
         <div className="block">
            
            <div className='Heading1'>
-                <h3>{heading} {heading1}</h3> 
                 
                 <img src={image} ></img>
+                <h3>{heading} {heading1}</h3> 
                 <p>{text}</p>
             </div>
             <Newphonedata />

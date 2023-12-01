@@ -2,7 +2,7 @@ $name_size: 15px;
 $heading: 20px;
 $primary_color: #F2F3CC;
 $secondary_color: #C3FCF2;
-$heading_Color: #FFC7A0;
+$heading_Color: #F1F4CC;
 
 @mixin blocks($name_size, $heading_Color){
     font-size: $name_size;
@@ -26,6 +26,10 @@ $heading_Color: #FFC7A0;
     
         .Heading1{
             @include blocks($name_size, $heading_Color);
+            background: #CBD5C8;
+            border-radius: .5rem;
+            padding: 1rem 1rem;
+            margin: 1rem;
             h2 {
                 color: $primary_color;
             }
@@ -55,7 +59,7 @@ $heading_Color: #FFC7A0;
     a{
         margin: 5px;
         padding-left: 10px;
-        color: #C3FCF2;
+        color: #759A9B;
 
     }
     input {

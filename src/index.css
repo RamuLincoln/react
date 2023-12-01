@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale; */
   
   font-family: var(--font-roboto);
-  background-color: #728E8C;
+  background: #ece5e5;
 }
 
 code {
