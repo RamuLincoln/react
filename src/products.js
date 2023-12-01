@@ -12,54 +12,54 @@ export const data = [
     {
         heading : "Samsung",
         heading1 : "Pro",
-        text : "from 80,000",
+       text : "80,000",
         image : sam
       },
       {
         heading : "Sony",
         heading1 : "Pro.Beyond",
-        text : "from 60,000",
+       text : "60,000",
         image : sony
       },
       {
         heading : "Iphone",
         heading1 : "Plus",
-        text : "from 1,10,000",
+       text : "1,10,000",
         image : iphoneblue1
       },
       {
         heading : "Hipo",
         heading1 : "Note",
-        text : "from 20,000",
+        text : "20,000",
         image : hipo
       },
       {
         heading : "Nothing",
         heading1 : "Promax",
-        text : "from 75,000",
+        text : "75,000",
         image : nothing
       },
       {
         heading : "Oneplus",
         heading1 : "Beyond",
-        text : "from 65,000",
+        text : "65,000",
         image : oneplus
       },{
         heading : "Iphone",
         heading1 : "Plus",
-        text : "from 1,00,000",
+        text : "1,00,000",
         image : iphonegreen1
       },
       {
         heading : "Oneplus",
         heading1 : "Gal",
-        text : "from 60,000",
+        text : "60,000",
         image : plus
       },
       {
         heading : "Samsung",
         heading1 : "Pro",
-        text : "from 60,000",
+        text : "60,000",
         image : samsung
       },
 ]

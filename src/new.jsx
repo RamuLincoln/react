@@ -1,5 +1,6 @@
 
 
+import { useState } from 'react';
 import './sass/new.css';
 
 function New(props) {
@@ -13,18 +14,21 @@ function New(props) {
   .then(datas => console.log(datas))
   .catch(error => console.error(error));}
   
-  const Alerttitle = (heading1) => {
-     alert(heading1)
-  }
+  const [value, setValue] = useState(0)
+  
   return (
         <div className="block">
            
            <div className='Heading1'>
                 
-                <img src={image} ></img>
+                <img src={image} alt='img'></img>
                 <h3>{heading} {heading1}</h3> 
                 <p>{text}</p>
-                <button type='button' onClick={() => Alerttitle(text)}>click</button>
+                <div className='but'>
+                  {value>0 ?
+                  <> <button type='button' onClick={() => setValue(value - 1)}> - </button> <button> {value}</button> <button type='button' onClick={() => setValue(value + 1)}>+</button></>:
+                  <button type='button' onClick={() => setValue(value + 1)}> + </button>}
+                 </div>
             </div>
             <Newphonedata />
         </div>
