@@ -12,7 +12,10 @@ function New(props) {
   .then(response => response.json())
   .then(datas => console.log(datas))
   .catch(error => console.error(error));}
-
+  
+  const Alerttitle = (heading1) => {
+     alert(heading1)
+  }
   return (
         <div className="block">
            
@@ -21,6 +24,7 @@ function New(props) {
                 <img src={image} ></img>
                 <h3>{heading} {heading1}</h3> 
                 <p>{text}</p>
+                <button type='button' onClick={() => Alerttitle(text)}>click</button>
             </div>
             <Newphonedata />
         </div>

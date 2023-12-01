@@ -1,6 +1,6 @@
 import New from "./new"
 import styled from "styled-components"
-import {data} from "./products.js"
+import {data} from "./products"
 import logo from './images/logo.jpg';
 import Nav from "./Components/nav.jsx";
 import Login from "./Login.js";

@@ -8,7 +8,7 @@ function Profile() {
         return
     }
   return (
-    <div style={{'color': theme}}> {user.name}
+    <div style={{'color': theme}}> {user.name.toUpperCase()}
     </div>
   )
 }
