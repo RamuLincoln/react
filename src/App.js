@@ -9,7 +9,6 @@ import {configureStore} from '@reduxjs/toolkit';
 import {Provider} from 'react-redux';
 import { userSlice } from './features/user.js';
 import { themeSlice } from './features/Theme.js';
-import ColorSelector from "./features/ColorSelector.js";
 
 const store = configureStore({
   reducer: {
@@ -30,7 +29,6 @@ function App(){
           <Provider store = {store}>
             <Profile />
             <Login />
-            <ColorSelector />
           </Provider>
       </TopContainer>
       <TopContainer>

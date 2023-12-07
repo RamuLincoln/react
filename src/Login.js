@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import { useDispatch } from 'react-redux';
 import {login, logout} from './features/user';
 import {useSelector} from 'react-redux';
+import ColorSelector from "./features/ColorSelector.js";
+import './login.css'
 
 function Login() {
     const dispatch = useDispatch();
@@ -16,8 +18,9 @@ function Login() {
 
                 </div>    
             )}
-            { !user.name ? <button onClick={() => dispatch(login({name}))}>click to change name</button> :
-            <button onClick={() => dispatch(logout())}>Change Name</button> }
+            { !user.name ? <div className='login'><button onClick={() => dispatch(login({name}))}>Submit</button></div> :<div className='logout'>
+            <button onClick={() => dispatch(logout())}>Change Name</button>
+            <ColorSelector /></div> }
         </div>
     )
 }
