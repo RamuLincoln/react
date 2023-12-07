@@ -13,6 +13,7 @@ const Nav = () => {
         <a>Mobile</a>
         <a>Laptop</a>
         <a>Accessories</a>
+        <a>Cart</a>
     </ul>
     </div>
   )
